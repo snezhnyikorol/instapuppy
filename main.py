@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import telebot
 from config import TOKEN, GROUP_ID
 
