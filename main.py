@@ -8,8 +8,8 @@ from config import TOKEN, GROUP_ID
 WEBHOOK_HOST = 'puppybot.ddns.net'
 WEBHOOK_PORT = 8443
 WEBHOOK_LISTEN = '0.0.0.0'  # На некоторых серверах придется указывать такой же IP, что и выше
-WEBHOOK_SSL_CERT = 'D:\projects\instabot\webhookinsta_cert.pem'  # Путь к сертификату
-WEBHOOK_SSL_PRIV = 'D:\projects\instabot\webhookinsta_pkey.pem'  # Путь к приватному ключу
+WEBHOOK_SSL_CERT = '.\webhookinsta_cert.pem'  # Путь к сертификату
+WEBHOOK_SSL_PRIV = '.\webhookinsta_pkey.pem'  # Путь к приватному ключу
 WEBHOOK_URL_BASE = "https://%s:%s" % (WEBHOOK_HOST, WEBHOOK_PORT)
 WEBHOOK_URL_PATH = "/%s/" % (TOKEN)
 
