@@ -5,7 +5,7 @@ import cherrypy
 from config import TOKEN, GROUP_ID
 
 
-WEBHOOK_HOST = 'puppybot.ddns.net'
+WEBHOOK_HOST = '79.170.108.200'
 WEBHOOK_PORT = 8443
 WEBHOOK_LISTEN = '0.0.0.0'  # На некоторых серверах придется указывать такой же IP, что и выше
 WEBHOOK_SSL_CERT = './webhookinsta_cert.pem'  # Путь к сертификату
